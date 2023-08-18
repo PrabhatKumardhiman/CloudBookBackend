@@ -4,12 +4,18 @@
   "description": "backend  server for cloudbook",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "const": "^1.0.0",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongoose": "^7.4.3"
+    "helmet": "^7.0.0",
+    "mongoose": "^7.4.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
   }
 }
